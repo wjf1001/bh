@@ -1,0 +1,410 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+}
+.box{
+	width: 1200px;
+	margin: 0 auto;
+}
+/* 北海首页 */
+.shouy{
+	height: 666px;/* 
+	background: url('../imgs/banner1.png') no-repeat top center; */
+	width: 100%;
+	position: relative;
+}
+/* 菜单 */
+.dhl{
+	width: 100%;
+	height: 66px;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.syxk{
+	height: 66px;
+}
+.syxk img{
+	margin: 7px 14px 5px 8px;
+}
+.syxk .hengk{
+	float: right;
+	list-style: none;
+}
+.syxk .hengk>li{
+	position: relative;
+	float: left;
+	font-size: 14px;
+	line-height: 66px;
+	width: 100px;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+}
+.syxk .hengk>li:hover{
+	color: #041cff;
+}
+.syxk .hengk>li:hover .sub-menu{
+	display: block;
+}
+.dhl:hover{
+	background: black;
+}
+/* 子菜单 */
+.sub-menu{
+	position: absolute;
+	width: 100px;
+	top: 66px;
+	left: 0;
+	background: #000;
+	text-align: center;
+}
+.sub-menu>li{
+	line-height: 38px;
+}
+.sub-menu>li a{
+	color: #fff;
+}
+.sub-menu>li a:hover{
+	color: #041cff;
+}
+/* 新闻资讯 */
+.datu1{
+	width: 100%;
+	height: 494px;
+	background: url('../imgs/bg.png') no-repeat top center;
+	min-width: 1200px;
+}
+.xinwen1{
+	height: 96px;
+	width: 500px;
+	border-bottom: 1px solid #999;
+	padding-top: 20px;
+	margin-bottom: 34px; 
+}
+.xinwen1 img{
+	margin-left: 240px;
+}
+.xinwen1 p{
+	font-size: 36px;
+	text-align: center;
+}
+.datu1 ul{
+	height: 342px;
+	list-style: none;
+}
+.datu1 li{
+	float: left;
+	width: 328px;
+	height: 342px; 
+}
+.xinwen2{
+	width: 328px;
+	height: 40px;
+	margin-top: 19px;
+	margin-bottom: 28px; 
+}
+.datu1 h1 img{
+	vertical-align: middle;
+}
+.datu1 h1>span{
+	color: #333;
+	font-size: 20px;
+	color: #57affd;
+}
+.xinwen2 a{
+	text-decoration: none;
+}
+.xinwen2 img{
+	margin: 10px 8px 15px 8px;
+	float: left;
+}
+.xinwen2 p{
+	font-size: 13px;
+	color: #333;
+	float: left;
+	width: 284px;
+	line-height: 20px;
+}
+.datu1 li:nth-child(1){
+	margin-right: 112px;
+}
+.datu1 li:nth-child(2){
+	margin-right: 102px;
+}
+/* 创业创新 */
+.bjing{
+	width: 100%;
+	height: 811px;
+	background: url('../imgs/cyz-bg.png') no-repeat top center;
+	min-width: 1200px;
+}
+/* 总成交金额 */
+
+.bjing2{
+	width: 100%;
+	height: 509px;
+	background: url('../imgs/tj-bg.png') no-repeat top center;
+	min-width: 1200px;
+}
+.jine{
+	height: 507px;
+}
+.zjine{
+	height: 157px;
+}
+.zjine img{
+	margin-top: 72px;
+}
+.zjine .span1{
+	font-size: 30px;
+	color: #fff;
+	line-height: 157px;
+	margin-left: 10px;
+	margin-right: 196px; 
+}
+.zjine .span2{
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+}
+.bjing2 ul{
+	height: 350px;
+	list-style: none;
+}
+.bjing2 .li1{
+	width: 300px;
+	height: 300px;
+	background: #fff;
+	float: left;
+	margin: 0;
+}
+.bjing2 .li1 .div1{
+	width: 62px;
+	height: 78px;
+	background: #fd5f20;
+	margin-left: 18px;
+}
+.bjing2 .li1 img{
+	margin-top: 22px;
+	margin-left: 10px; 
+}
+.bjing2 .li1 .p1{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 18px;
+}
+.bjing2 .li1 .p2{
+	color: #fd5f20;
+	font-size: 45px;
+	text-align: center;
+}
+.bjing2 .li1 .p3{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 20px;
+}
+.bjing2 li{
+	float: left;
+	width: 222px;
+	height: 300px;
+	margin-left: 78px;
+	background: #fff;
+}
+.bjing2 .div2{
+	width: 50px;
+	height: 62px;
+	background: #ffd624;
+	margin-left: 22px;
+}
+.bjing2 .div2 img{
+	margin: 17px 8px;
+}
+.bjing2 .p3{
+	font-size: 25px;
+	text-align: center;
+	color: #959595;
+	margin-top: 30px;
+}
+.bjing2 .p4{
+	font-size: 40px;
+	text-align: center;
+}
+.bjing2 li:hover{
+	transform: translate(0, -10px);
+	box-shadow: 1px 1px 10px #676767; 
+}
+
+/* 专业平台 */
+.bjing3{
+	width: 100%;
+	height: 645px;
+	background: url('../imgs/zypt-bg.png') no-repeat top center; 
+	min-width: 1200px;
+}
+.bjing4{
+	height: 280px; 
+	border-top: 1px solid #e5e5e5;
+	margin-bottom:52px; 
+}
+.biaoti1{
+	height: 57px;
+	padding-top: 25px;
+}
+.biaoti1 img{
+	margin-right: 8px;
+}
+.biaoti1 span{
+	font-size: 13px;
+	color: #77befd;
+}
+.bjing4 a{
+	margin-right:123px;
+}
+.bjing4 a>img:hover{
+	transform: translate(0, -10px);
+	box-shadow: 1px 1px 10px gray;
+}
+/* 微笑服务 */
+.bjing5{
+	width: 100%;
+	height: 905px;
+	background: url('../imgs/bg.png') no-repeat top center;
+	min-width: 1200px;
+}
+.bjing5 ul{
+	list-style: none;
+}
+.bjing5 li{
+	float: left;
+	text-align: center;
+	background: #dcdcdc;
+	font-size: 0;
+	margin-right: 150px;
+	margin-bottom: 75px;
+	transform: scale(1, 1);
+	-wekit-transition: all .3s;
+	transition: all .3s;
+}
+.bjing5 li:nth-child(3),.bjing5 li:nth-child(6){
+	margin: 0;
+}
+.bjing5 h1{
+	font-weight: normal;
+	font-size: 16px; 
+	margin-top: 26px;
+}
+.bjing5 .info{
+	width: 250px;
+	height: 46px;
+	font-size: 12px;
+	margin: 0 auto;
+}
+.bjing5 li:hover{
+	background: #57affd;
+	transform: scale(1.1, 1.1);
+	box-shadow: 1px 1px 20px gray;
+	color: #fff;
+	cursor: pointer;
+}
+/* 助力全面小康 */
+.bjing6{
+	width: 100%;
+	height: 637px;
+	background: url('../imgs/fp.png') no-repeat top center;
+	min-width: 1200px;
+}
+/* 智慧北海 */
+.zhbh{
+	width: 1000px;
+	height: 388px;
+	margin: 0 auto;
+}
+.zhbh1{
+	float: left;
+	width: 340px;
+	height: 388px;
+}
+.zhbh img{
+	margin-top: 50px;
+}
+.zhbh span{
+	font-size: 21px;
+	color: #57affd;
+	margin-left: 16px; 
+	margin-top: 40px;
+    display: inline-block;
+}
+.zhbh a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #333;
+}
+.zhbh p{
+	margin-bottom: 15px;
+}
+.zhbh .p1{
+	margin-top: 30px; 
+}
+.zhbh .p2{
+	color: #57affd;
+}
+.zhbh2{
+	float: left;
+}
+.zhbh2 img{
+	margin: 36px 125px 22px 78px;
+}
+.zhbh3{
+	width: 252px;
+	height: 388px;
+	float: left;
+}
+/* 结尾 */
+.bjing7{
+	width: 100%;
+	height: 50px;
+	background: #57affd;
+	text-align: center;
+	line-height: 50px;	
+	min-width: 1200px;
+}
+.bjing7 p{
+	color: #fff;
+	display: inline-block;
+	font-size: 13px;
+}
+/* 轮播图的样式 */
+.slideBox{ height: 666px; overflow:hidden; position:relative; border:1px solid #ddd;  }
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; left: 50%;margin-left: -90px; bottom:5px; z-index:1; }
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.slideBox .hd ul li{ float:left; margin-right:5px;  width:40px; height:10px; line-height:14px; text-align:center; background:#333; cursor:pointer; }
+.slideBox .hd ul li.on{ background:#fff; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+.slideBox .bd img{ display:block; position: absolute;top:0;left:50%;margin-left:-960px;}
+
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+.slideBox .prev,
+.slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:40px; background:url(../imgs/slider-arrow1.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+.slideBox .next{ left:auto; right:3%; background-position:8px 5px; }
+.slideBox .prev:hover,
+.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+.slideBox .prevStop{ display:none;  }
+.slideBox .nextStop{ display:none;  }
+
+
+
+
+
+
+
+
+
+
+
